@@ -28,7 +28,7 @@ services:
       MYSQL_USER1: www
       MYSQL_ROOT_PASSWORD: iaw
     ports:
-      - "3306:3306"
+      - "3307:3307"
     volumes_from:
      - data
     networks:
